@@ -12,6 +12,16 @@
   <ItemGroup>
     <Compile Remove="Form1.cs" />
     <Compile Remove="Form1.Designer.cs" />
+    <Compile Remove="Views\Views_Paineis\ExtrairPDF.cs" />
+    <Compile Remove="Views\Views_Paineis\ExtrairPDF.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\Views_Paineis\ExtrairPDF.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Views_Paineis\NotasRecibos.resx~RF34f9b4.TMP" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,9 +32,11 @@
 
   <ItemGroup>
     <PackageReference Include="AntdUI" Version="2.2.7" />
+    <PackageReference Include="itext7" Version="8.0.0" />
     <PackageReference Include="Krypton.Toolkit" Version="100.25.11.328" />
     <PackageReference Include="MaterialSkin.2" Version="2.3.1" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.3" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3650.58" />
     <PackageReference Include="OpenTK" Version="4.9.4" />
     <PackageReference Include="OxyPlot.WindowsForms" Version="2.2.0" />
     <PackageReference Include="ReaLTaiizor" Version="3.8.1.4" />

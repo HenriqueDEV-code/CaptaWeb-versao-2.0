@@ -161,10 +161,10 @@ namespace CaptaWeb_Desktop.Views
             OpenChildForm(new Views_Paineis.NotasRecibos(OpenChildForm), sender);
             this.Text = "CaptaWeb - Notas e Recibos";
         }
-        private void Bnt_ExtrairPDF_Click(object sender, EventArgs e)
+        private void Bnt_ExtrairTXT_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Views_Paineis.NotasRecibos(OpenChildForm), sender);
-            this.Text = "CaptaWeb - Extrair para PDF";
+            OpenChildForm(new Views_Paineis.ExtrairTXT(OpenChildForm), sender);
+            this.Text = "CaptaWeb - Extrair para TXT";
         }
 
         private void CaptaWeb_Home_Load(object sender, EventArgs e)
@@ -176,7 +176,7 @@ namespace CaptaWeb_Desktop.Views
             ArrendondarButton(Bnt_Lista_de_imoveis, 12);
             ArrendondarButton(Bnt_NotasRecibos, 12);
             ArrendondarButton(Bnt_Bloco_de_notas, 12);
-            ArrendondarButton(Bnt_ExtrairPDF, 12);
+            ArrendondarButton(Bnt_ExtrairTXT, 12);
 
         }
 

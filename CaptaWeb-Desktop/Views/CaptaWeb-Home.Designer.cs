@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CaptaWeb_Home));
             Panel_Lateral_Home = new Panel();
-            Bnt_ExtrairPDF = new Button();
+            Bnt_ExtrairTXT = new Button();
             Bnt_NotasRecibos = new Button();
             Bnt_Bloco_de_notas = new Button();
             Bnt_Lista_de_imoveis = new Button();
@@ -51,7 +51,7 @@
             // Panel_Lateral_Home
             // 
             Panel_Lateral_Home.BackColor = Color.FromArgb(46, 139, 192);
-            Panel_Lateral_Home.Controls.Add(Bnt_ExtrairPDF);
+            Panel_Lateral_Home.Controls.Add(Bnt_ExtrairTXT);
             Panel_Lateral_Home.Controls.Add(Bnt_NotasRecibos);
             Panel_Lateral_Home.Controls.Add(Bnt_Bloco_de_notas);
             Panel_Lateral_Home.Controls.Add(Bnt_Lista_de_imoveis);
@@ -66,24 +66,24 @@
             Panel_Lateral_Home.Size = new Size(228, 861);
             Panel_Lateral_Home.TabIndex = 0;
             // 
-            // Bnt_ExtrairPDF
+            // Bnt_ExtrairTXT
             // 
-            Bnt_ExtrairPDF.FlatAppearance.BorderSize = 0;
-            Bnt_ExtrairPDF.FlatStyle = FlatStyle.Flat;
-            Bnt_ExtrairPDF.Font = new Font("Arial", 10F);
-            Bnt_ExtrairPDF.ForeColor = Color.White;
-            Bnt_ExtrairPDF.Image = (Image)resources.GetObject("Bnt_ExtrairPDF.Image");
-            Bnt_ExtrairPDF.ImageAlign = ContentAlignment.MiddleLeft;
-            Bnt_ExtrairPDF.Location = new Point(-2, 404);
-            Bnt_ExtrairPDF.Name = "Bnt_ExtrairPDF";
-            Bnt_ExtrairPDF.Padding = new Padding(11, 0, 0, 0);
-            Bnt_ExtrairPDF.Size = new Size(228, 61);
-            Bnt_ExtrairPDF.TabIndex = 6;
-            Bnt_ExtrairPDF.Text = "    Extrair PDF";
-            Bnt_ExtrairPDF.TextAlign = ContentAlignment.MiddleLeft;
-            Bnt_ExtrairPDF.TextImageRelation = TextImageRelation.ImageBeforeText;
-            Bnt_ExtrairPDF.UseVisualStyleBackColor = false;
-            Bnt_ExtrairPDF.Click += Bnt_ExtrairPDF_Click;
+            Bnt_ExtrairTXT.FlatAppearance.BorderSize = 0;
+            Bnt_ExtrairTXT.FlatStyle = FlatStyle.Flat;
+            Bnt_ExtrairTXT.Font = new Font("Arial", 10F);
+            Bnt_ExtrairTXT.ForeColor = Color.White;
+            Bnt_ExtrairTXT.Image = (Image)resources.GetObject("Bnt_ExtrairTXT.Image");
+            Bnt_ExtrairTXT.ImageAlign = ContentAlignment.MiddleLeft;
+            Bnt_ExtrairTXT.Location = new Point(-2, 404);
+            Bnt_ExtrairTXT.Name = "Bnt_ExtrairTXT";
+            Bnt_ExtrairTXT.Padding = new Padding(11, 0, 0, 0);
+            Bnt_ExtrairTXT.Size = new Size(228, 61);
+            Bnt_ExtrairTXT.TabIndex = 6;
+            Bnt_ExtrairTXT.Text = "    Extrair TXT";
+            Bnt_ExtrairTXT.TextAlign = ContentAlignment.MiddleLeft;
+            Bnt_ExtrairTXT.TextImageRelation = TextImageRelation.ImageBeforeText;
+            Bnt_ExtrairTXT.UseVisualStyleBackColor = false;
+            Bnt_ExtrairTXT.Click += Bnt_ExtrairTXT_Click;
             // 
             // Bnt_NotasRecibos
             // 
@@ -315,6 +315,6 @@
         private Label label_titleBar_PanelSuperior;
         private Panel panel_Desktop;
         private Button Bnt_NotasRecibos;
-        private Button Bnt_ExtrairPDF;
+        private Button Bnt_ExtrairTXT;
     }
 }

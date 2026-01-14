@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Bnt_ExtrairPDF.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Bnt_ExtrairTXT.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAAhVJREFUWEftlkFLVFEYhhVMAmnRVgShsHZCqQQShKAuzEAXkhRGkLSRNkkQbUUQ
+        DgAACw4BQL7hQQAAAhVJREFUWEftlkFLVFEYhhVMAmnRVgShsHZCqQQShKAuzEAXkhRGkLSRNkkQbUUQ
         zJWgK7F0Ybr1D0QSqRXiRiKQooVgywiCCJ/4hvfG6XPmOnPuOLjwgcPMPefe93vmzDn33qqqU04iwBlg
         HHgHfCiybQAPfFYUwGPiOABGfF7JAK98chGs6jO7BLDiwovhIjCt7ybxyOcWTaTABaC6LBKxAro2u0QW
         AV2fTSJSoMllmMSMxkzibjieSqTAHNAFdAbNjt9rfNnXKUikwFGs+DoFORVwAraQLqvdAfaBHeCS9v41
@@ -136,7 +136,7 @@
   <data name="Bnt_NotasRecibos.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAX5JREFUWEfllD9LA0EUxFNFtPVz2KmFKLbGxlqbgOD3iKKfKJamVcTCRpsoFv7p
+        DQAACw0B7QfALAAAAX5JREFUWEfllD9LA0EUxFNFtPVz2KmFKLbGxlqbgOD3iKKfKJamVcTCRpsoFv7p
         LRWEn8z5NuTW2+N2L3cEnWbfzk3mzb5d0unMI4AnoG91H3iruX8FtvNdSsAP7oFb4A7YszV1fwi8+32C
         sABLwJFW4+ruyXcpQZS4IqI8o8QVEeUZJa6IKE9fDIztXYQwLtBOOOPTA8wCUZ6+uGQCB9M6B9P/oQnM
         AlGevjhwBbkRO/y7RyjkHmLSBOx/+wR4BL5KxYmwUPJWj2Ng0X1Q8ytgCKwB3QYDyFs9zoHLLISdfFgg

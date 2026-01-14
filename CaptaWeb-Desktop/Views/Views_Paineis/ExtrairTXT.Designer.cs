@@ -1,6 +1,6 @@
 ﻿namespace CaptaWeb_Desktop.Views.Views_Paineis
 {
-    partial class ExtrairPDF
+    partial class ExtrairTXT
     {
         /// <summary>
         /// Required designer variable.
@@ -30,17 +30,17 @@
         {
             SuspendLayout();
             // 
-            // ExtrairPDF
+            // ExtrairTXT
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1661, 925);
+            ClientSize = new Size(1645, 886);
             FormBorderStyle = FormBorderStyle.None;
             MinimumSize = new Size(640, 540);
-            Name = "ExtrairPDF";
+            Name = "ExtrairTXT";
             ShowIcon = false;
-            Text = "Extrair para PDF";
+            Text = "Extrair para txt";
             ResumeLayout(false);
         }
 

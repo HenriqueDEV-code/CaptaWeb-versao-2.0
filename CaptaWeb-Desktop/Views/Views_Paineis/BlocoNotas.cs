@@ -16,7 +16,7 @@ namespace CaptaWeb_Desktop.Views.Views_Paineis
             InitializeComponent();
             this.KeyPreview = true; // <<< Permite que o formulário capture teclas
             this.KeyDown += new KeyEventHandler(this.BlocoDeNotas_KeyDown); // <<< Associa o evento de tecla
-
+             _openChild = openChild;
         }
 
         public BlocoNotas()
