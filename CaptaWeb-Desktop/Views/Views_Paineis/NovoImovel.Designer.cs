@@ -116,7 +116,6 @@
             Btn_NovoProprietario = new Button();
             ComBox_PesquisarProprietario = new Sunny.UI.UIComboBox();
             uiLabel32 = new Sunny.UI.UILabel();
-            uiLabel2 = new Sunny.UI.UILabel();
             uiCheckBoxGroup1.SuspendLayout();
             uiCheckBoxGroup2.SuspendLayout();
             uiCheckBoxGroup3.SuspendLayout();
@@ -1027,7 +1026,6 @@
             // uiCheckBoxGroup3
             // 
             uiCheckBoxGroup3.BackColor = Color.White;
-            uiCheckBoxGroup3.Controls.Add(uiLabel2);
             uiCheckBoxGroup3.Controls.Add(uiLabel37);
             uiCheckBoxGroup3.Controls.Add(Btn_GravarDadosNoForms);
             uiCheckBoxGroup3.Controls.Add(TxB_NomeProprietarioViews);
@@ -1210,17 +1208,6 @@
             uiLabel32.TabIndex = 5017;
             uiLabel32.Text = "Proprietário do imóvel:";
             // 
-            // uiLabel2
-            // 
-            uiLabel2.Font = new Font("Mongolian Baiti", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            uiLabel2.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel2.Location = new Point(617, 901);
-            uiLabel2.Name = "uiLabel2";
-            uiLabel2.Size = new Size(381, 15);
-            uiLabel2.TabIndex = 5067;
-            uiLabel2.Text = "* ESC - Fecha a aba";
-            uiLabel2.TextAlign = ContentAlignment.TopCenter;
-            // 
             // NovoImovel
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1387,6 +1374,5 @@
         private Sunny.UI.UITextBox TxB_NomeProprietarioViews;
         private Button Btn_GravarDadosNoForms;
         private Sunny.UI.UILabel uiLabel37;
-        private Sunny.UI.UILabel uiLabel2;
     }
 }

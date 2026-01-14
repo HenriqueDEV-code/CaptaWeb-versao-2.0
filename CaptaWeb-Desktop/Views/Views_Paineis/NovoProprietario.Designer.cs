@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
             uiGroupBox1 = new Sunny.UI.UIGroupBox();
             uiLabel5 = new Sunny.UI.UILabel();
             DGV_ListaProprietarios = new Sunny.UI.UIDataGridView();
@@ -53,7 +53,6 @@
             TxB_NomeProprietario = new Sunny.UI.UITextBox();
             uiLabel25 = new Sunny.UI.UILabel();
             uiAvatar1 = new Sunny.UI.UIAvatar();
-            uiLabel14 = new Sunny.UI.UILabel();
             uiGroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)DGV_ListaProprietarios).BeginInit();
             SuspendLayout();
@@ -61,7 +60,6 @@
             // uiGroupBox1
             // 
             uiGroupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            uiGroupBox1.Controls.Add(uiLabel14);
             uiGroupBox1.Controls.Add(uiLabel5);
             uiGroupBox1.Controls.Add(DGV_ListaProprietarios);
             uiGroupBox1.Controls.Add(Btn_SalvarCadastroProprietario);
@@ -109,29 +107,29 @@
             // DGV_ListaProprietarios
             // 
             DGV_ListaProprietarios.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle6.BackColor = Color.FromArgb(235, 243, 255);
-            DGV_ListaProprietarios.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(235, 243, 255);
+            DGV_ListaProprietarios.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             DGV_ListaProprietarios.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             DGV_ListaProprietarios.BackgroundColor = Color.White;
             DGV_ListaProprietarios.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = Color.FromArgb(80, 160, 255);
-            dataGridViewCellStyle7.Font = new Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle7.ForeColor = Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = DataGridViewTriState.True;
-            DGV_ListaProprietarios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(80, 160, 255);
+            dataGridViewCellStyle2.Font = new Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            DGV_ListaProprietarios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             DGV_ListaProprietarios.ColumnHeadersHeight = 32;
             DGV_ListaProprietarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = SystemColors.Window;
-            dataGridViewCellStyle8.Font = new Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle8.ForeColor = Color.FromArgb(48, 48, 48);
-            dataGridViewCellStyle8.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = DataGridViewTriState.False;
-            DGV_ListaProprietarios.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = SystemColors.Window;
+            dataGridViewCellStyle3.Font = new Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle3.ForeColor = Color.FromArgb(48, 48, 48);
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            DGV_ListaProprietarios.DefaultCellStyle = dataGridViewCellStyle3;
             DGV_ListaProprietarios.EnableHeadersVisualStyles = false;
             DGV_ListaProprietarios.Font = new Font("Microsoft Sans Serif", 12F);
             DGV_ListaProprietarios.GridColor = Color.FromArgb(80, 160, 255);
@@ -139,17 +137,17 @@
             DGV_ListaProprietarios.Name = "DGV_ListaProprietarios";
             DGV_ListaProprietarios.ReadOnly = true;
             DGV_ListaProprietarios.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = Color.FromArgb(235, 243, 255);
-            dataGridViewCellStyle9.Font = new Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle9.ForeColor = Color.FromArgb(48, 48, 48);
-            dataGridViewCellStyle9.SelectionBackColor = Color.FromArgb(80, 160, 255);
-            dataGridViewCellStyle9.SelectionForeColor = Color.White;
-            dataGridViewCellStyle9.WrapMode = DataGridViewTriState.True;
-            DGV_ListaProprietarios.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
-            dataGridViewCellStyle10.BackColor = Color.White;
-            dataGridViewCellStyle10.Font = new Font("Microsoft Sans Serif", 12F);
-            DGV_ListaProprietarios.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = Color.FromArgb(235, 243, 255);
+            dataGridViewCellStyle4.Font = new Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle4.ForeColor = Color.FromArgb(48, 48, 48);
+            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(80, 160, 255);
+            dataGridViewCellStyle4.SelectionForeColor = Color.White;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            DGV_ListaProprietarios.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.BackColor = Color.White;
+            dataGridViewCellStyle5.Font = new Font("Microsoft Sans Serif", 12F);
+            DGV_ListaProprietarios.RowsDefaultCellStyle = dataGridViewCellStyle5;
             DGV_ListaProprietarios.SelectedIndex = -1;
             DGV_ListaProprietarios.Size = new Size(791, 574);
             DGV_ListaProprietarios.StripeOddColor = Color.FromArgb(235, 243, 255);
@@ -382,17 +380,6 @@
             uiAvatar1.TabIndex = 0;
             uiAvatar1.Text = "uiAvatar1";
             // 
-            // uiLabel14
-            // 
-            uiLabel14.Font = new Font("Mongolian Baiti", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            uiLabel14.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel14.Location = new Point(26, 904);
-            uiLabel14.Name = "uiLabel14";
-            uiLabel14.Size = new Size(381, 14);
-            uiLabel14.TabIndex = 5067;
-            uiLabel14.Text = "* ESC - Fecha a aba";
-            uiLabel14.TextAlign = ContentAlignment.TopCenter;
-            // 
             // NovoProprietario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -432,6 +419,5 @@
         private Button Btn_SalvarCadastroProprietario;
         private Sunny.UI.UILabel uiLabel5;
         private Sunny.UI.UIDataGridView DGV_ListaProprietarios;
-        private Sunny.UI.UILabel uiLabel14;
     }
 }

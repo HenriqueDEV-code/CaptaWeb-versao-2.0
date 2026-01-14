@@ -65,14 +65,12 @@
             uiLabel6 = new Sunny.UI.UILabel();
             Lab_IdEmpresaViews = new Sunny.UI.UILabel();
             uiAvatar1 = new Sunny.UI.UIAvatar();
-            uiLabel11 = new Sunny.UI.UILabel();
             uiGroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)DGV_ListaImobiliarias_Corretores).BeginInit();
             SuspendLayout();
             // 
             // uiGroupBox1
             // 
-            uiGroupBox1.Controls.Add(uiLabel11);
             uiGroupBox1.Controls.Add(uiLabel10);
             uiGroupBox1.Controls.Add(DGV_ListaImobiliarias_Corretores);
             uiGroupBox1.Controls.Add(button1);
@@ -553,17 +551,6 @@
             uiAvatar1.TabIndex = 5;
             uiAvatar1.Text = "uiAvatar1";
             // 
-            // uiLabel11
-            // 
-            uiLabel11.Font = new Font("Mongolian Baiti", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            uiLabel11.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel11.Location = new Point(3, 908);
-            uiLabel11.Name = "uiLabel11";
-            uiLabel11.Size = new Size(381, 15);
-            uiLabel11.TabIndex = 5068;
-            uiLabel11.Text = "* ESC - Fecha a aba";
-            uiLabel11.TextAlign = ContentAlignment.TopCenter;
-            // 
             // NovaParceria
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -613,6 +600,5 @@
         private Button button1;
         private Sunny.UI.UILabel uiLabel10;
         private Sunny.UI.UIDataGridView DGV_ListaImobiliarias_Corretores;
-        private Sunny.UI.UILabel uiLabel11;
     }
 }

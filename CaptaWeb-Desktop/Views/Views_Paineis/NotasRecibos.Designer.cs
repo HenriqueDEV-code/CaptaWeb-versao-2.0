@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             uiGroupBox1 = new Sunny.UI.UIGroupBox();
+            button1 = new Button();
+            uiTextBox3 = new Sunny.UI.UITextBox();
+            uiLabel6 = new Sunny.UI.UILabel();
             uiTextBox2 = new Sunny.UI.UITextBox();
             uiLabel4 = new Sunny.UI.UILabel();
             Btn_SelecionarProprietario = new Button();
@@ -45,6 +48,9 @@
             // 
             // uiGroupBox1
             // 
+            uiGroupBox1.Controls.Add(button1);
+            uiGroupBox1.Controls.Add(uiTextBox3);
+            uiGroupBox1.Controls.Add(uiLabel6);
             uiGroupBox1.Controls.Add(uiTextBox2);
             uiGroupBox1.Controls.Add(uiLabel4);
             uiGroupBox1.Controls.Add(Btn_SelecionarProprietario);
@@ -68,10 +74,49 @@
             uiGroupBox1.Text = null;
             uiGroupBox1.TextAlignment = ContentAlignment.MiddleLeft;
             // 
+            // button1
+            // 
+            button1.Anchor = AnchorStyles.Left;
+            button1.Font = new Font("Mongolian Baiti", 15.75F);
+            button1.Image = Properties.Resources.icons8_salvar_321;
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(271, 539);
+            button1.Name = "button1";
+            button1.Size = new Size(186, 54);
+            button1.TabIndex = 5026;
+            button1.Text = "   Salvar Dados";
+            button1.TextAlign = ContentAlignment.MiddleLeft;
+            button1.TextImageRelation = TextImageRelation.ImageBeforeText;
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // uiTextBox3
+            // 
+            uiTextBox3.Font = new Font("Microsoft Sans Serif", 12F);
+            uiTextBox3.Location = new Point(197, 291);
+            uiTextBox3.Margin = new Padding(4, 5, 4, 5);
+            uiTextBox3.MinimumSize = new Size(1, 16);
+            uiTextBox3.Name = "uiTextBox3";
+            uiTextBox3.Padding = new Padding(5);
+            uiTextBox3.ShowText = false;
+            uiTextBox3.Size = new Size(255, 29);
+            uiTextBox3.TabIndex = 5024;
+            uiTextBox3.TextAlignment = ContentAlignment.MiddleLeft;
+            uiTextBox3.Watermark = "";
+            // 
+            // uiLabel6
+            // 
+            uiLabel6.Font = new Font("Mongolian Baiti", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            uiLabel6.ForeColor = Color.FromArgb(48, 48, 48);
+            uiLabel6.Location = new Point(77, 297);
+            uiLabel6.Name = "uiLabel6";
+            uiLabel6.Size = new Size(113, 23);
+            uiLabel6.TabIndex = 5025;
+            uiLabel6.Text = "Imobiliária:";
+            // 
             // uiTextBox2
             // 
             uiTextBox2.Font = new Font("Microsoft Sans Serif", 12F);
-            uiTextBox2.Location = new Point(197, 247);
+            uiTextBox2.Location = new Point(197, 246);
             uiTextBox2.Margin = new Padding(4, 5, 4, 5);
             uiTextBox2.MinimumSize = new Size(1, 16);
             uiTextBox2.Name = "uiTextBox2";
@@ -86,7 +131,7 @@
             // 
             uiLabel4.Font = new Font("Mongolian Baiti", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             uiLabel4.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel4.Location = new Point(12, 253);
+            uiLabel4.Location = new Point(12, 252);
             uiLabel4.Name = "uiLabel4";
             uiLabel4.Size = new Size(178, 23);
             uiLabel4.TabIndex = 5023;
@@ -116,7 +161,7 @@
             DataTimeInicio_Filtro.Checked = false;
             DataTimeInicio_Filtro.Cursor = Cursors.Hand;
             DataTimeInicio_Filtro.Font = new Font("Microsoft Sans Serif", 12F);
-            DataTimeInicio_Filtro.Location = new Point(197, 309);
+            DataTimeInicio_Filtro.Location = new Point(197, 336);
             DataTimeInicio_Filtro.Margin = new Padding(4, 5, 4, 5);
             DataTimeInicio_Filtro.MaxDate = new DateTime(2100, 12, 31, 0, 0, 0, 0);
             DataTimeInicio_Filtro.MinDate = new DateTime(2024, 1, 1, 0, 0, 0, 0);
@@ -132,7 +177,7 @@
             // 
             uiLabel3.Font = new Font("Mongolian Baiti", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             uiLabel3.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel3.Location = new Point(129, 312);
+            uiLabel3.Location = new Point(129, 339);
             uiLabel3.Name = "uiLabel3";
             uiLabel3.Size = new Size(61, 23);
             uiLabel3.TabIndex = 5020;
@@ -141,7 +186,7 @@
             // uiTextBox1
             // 
             uiTextBox1.Font = new Font("Microsoft Sans Serif", 12F);
-            uiTextBox1.Location = new Point(197, 205);
+            uiTextBox1.Location = new Point(197, 201);
             uiTextBox1.Margin = new Padding(4, 5, 4, 5);
             uiTextBox1.MinimumSize = new Size(1, 16);
             uiTextBox1.Name = "uiTextBox1";
@@ -156,7 +201,7 @@
             // 
             uiLabel2.Font = new Font("Mongolian Baiti", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             uiLabel2.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel2.Location = new Point(12, 211);
+            uiLabel2.Location = new Point(12, 207);
             uiLabel2.Name = "uiLabel2";
             uiLabel2.Size = new Size(178, 23);
             uiLabel2.TabIndex = 5018;
@@ -166,7 +211,7 @@
             // 
             uiLabel1.Font = new Font("Mongolian Baiti", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             uiLabel1.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel1.Location = new Point(109, 32);
+            uiLabel1.Location = new Point(94, 32);
             uiLabel1.Name = "uiLabel1";
             uiLabel1.Size = new Size(282, 34);
             uiLabel1.TabIndex = 5017;
@@ -238,5 +283,8 @@
         private Sunny.UI.UITextBox TxB_Logradouro;
         private Sunny.UI.UILabel uiLabel5;
         private Sunny.UI.UILine uiLine4;
+        private Sunny.UI.UITextBox uiTextBox3;
+        private Sunny.UI.UILabel uiLabel6;
+        private Button button1;
     }
 }

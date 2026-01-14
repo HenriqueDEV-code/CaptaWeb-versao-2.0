@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CaptaWeb_Home));
             Panel_Lateral_Home = new Panel();
+            button1 = new Button();
             Bnt_ExtrairTXT = new Button();
             Bnt_NotasRecibos = new Button();
             Bnt_Bloco_de_notas = new Button();
@@ -51,6 +52,7 @@
             // Panel_Lateral_Home
             // 
             Panel_Lateral_Home.BackColor = Color.FromArgb(46, 139, 192);
+            Panel_Lateral_Home.Controls.Add(button1);
             Panel_Lateral_Home.Controls.Add(Bnt_ExtrairTXT);
             Panel_Lateral_Home.Controls.Add(Bnt_NotasRecibos);
             Panel_Lateral_Home.Controls.Add(Bnt_Bloco_de_notas);
@@ -66,6 +68,24 @@
             Panel_Lateral_Home.Size = new Size(228, 861);
             Panel_Lateral_Home.TabIndex = 0;
             // 
+            // button1
+            // 
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Arial", 10F);
+            button1.ForeColor = Color.White;
+            button1.Image = (Image)resources.GetObject("button1.Image");
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(0, 400);
+            button1.Name = "button1";
+            button1.Padding = new Padding(11, 0, 0, 0);
+            button1.Size = new Size(228, 61);
+            button1.TabIndex = 6;
+            button1.Text = "   404";
+            button1.TextAlign = ContentAlignment.MiddleLeft;
+            button1.TextImageRelation = TextImageRelation.ImageBeforeText;
+            button1.UseVisualStyleBackColor = false;
+            // 
             // Bnt_ExtrairTXT
             // 
             Bnt_ExtrairTXT.FlatAppearance.BorderSize = 0;
@@ -74,11 +94,11 @@
             Bnt_ExtrairTXT.ForeColor = Color.White;
             Bnt_ExtrairTXT.Image = (Image)resources.GetObject("Bnt_ExtrairTXT.Image");
             Bnt_ExtrairTXT.ImageAlign = ContentAlignment.MiddleLeft;
-            Bnt_ExtrairTXT.Location = new Point(-2, 404);
+            Bnt_ExtrairTXT.Location = new Point(0, 467);
             Bnt_ExtrairTXT.Name = "Bnt_ExtrairTXT";
             Bnt_ExtrairTXT.Padding = new Padding(11, 0, 0, 0);
             Bnt_ExtrairTXT.Size = new Size(228, 61);
-            Bnt_ExtrairTXT.TabIndex = 6;
+            Bnt_ExtrairTXT.TabIndex = 7;
             Bnt_ExtrairTXT.Text = "    Extrair TXT";
             Bnt_ExtrairTXT.TextAlign = ContentAlignment.MiddleLeft;
             Bnt_ExtrairTXT.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -93,11 +113,11 @@
             Bnt_NotasRecibos.ForeColor = Color.White;
             Bnt_NotasRecibos.Image = (Image)resources.GetObject("Bnt_NotasRecibos.Image");
             Bnt_NotasRecibos.ImageAlign = ContentAlignment.MiddleLeft;
-            Bnt_NotasRecibos.Location = new Point(1, 469);
+            Bnt_NotasRecibos.Location = new Point(0, 534);
             Bnt_NotasRecibos.Name = "Bnt_NotasRecibos";
             Bnt_NotasRecibos.Padding = new Padding(11, 0, 0, 0);
             Bnt_NotasRecibos.Size = new Size(228, 61);
-            Bnt_NotasRecibos.TabIndex = 7;
+            Bnt_NotasRecibos.TabIndex = 8;
             Bnt_NotasRecibos.Text = "    Notas/Recibos";
             Bnt_NotasRecibos.TextAlign = ContentAlignment.MiddleLeft;
             Bnt_NotasRecibos.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -112,11 +132,11 @@
             Bnt_Bloco_de_notas.ForeColor = Color.White;
             Bnt_Bloco_de_notas.Image = (Image)resources.GetObject("Bnt_Bloco_de_notas.Image");
             Bnt_Bloco_de_notas.ImageAlign = ContentAlignment.MiddleLeft;
-            Bnt_Bloco_de_notas.Location = new Point(-3, 534);
+            Bnt_Bloco_de_notas.Location = new Point(0, 601);
             Bnt_Bloco_de_notas.Name = "Bnt_Bloco_de_notas";
             Bnt_Bloco_de_notas.Padding = new Padding(11, 0, 0, 0);
             Bnt_Bloco_de_notas.Size = new Size(228, 61);
-            Bnt_Bloco_de_notas.TabIndex = 8;
+            Bnt_Bloco_de_notas.TabIndex = 9;
             Bnt_Bloco_de_notas.Text = "   Bloco de Notas";
             Bnt_Bloco_de_notas.TextAlign = ContentAlignment.MiddleLeft;
             Bnt_Bloco_de_notas.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -316,5 +336,6 @@
         private Panel panel_Desktop;
         private Button Bnt_NotasRecibos;
         private Button Bnt_ExtrairTXT;
+        private Button button1;
     }
 }
